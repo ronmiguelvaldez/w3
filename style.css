@@ -50,13 +50,10 @@ li a:hover {
     color: black;
 }
 .header {
+    background-color: whitesmoke;
     width: 100px;
     height: 100px;
     overflow: hidden;
-    animation-name: header;
-    animation-duration: 7s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
     transition: width 2s, height 2.5s ease-in-out;
 }
 .header p {
