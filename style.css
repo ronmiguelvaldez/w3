@@ -55,14 +55,15 @@ li a:hover {
     width: 100px;
     height: 100px;
     overflow: hidden;
-    transition: width 1.5s, height 1.5s ease-in-out;
+    transition: width 1.5s, height 1.5s, transform 2s;
 }
 /*
 .header p {
     font-size: 10px;
 } */
 .header:hover {
-    width: 70%;
-    height: 70%;
+    width: 500px;
+    height: 500px;
+    transform: rotate(360deg);
 }
 
