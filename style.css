@@ -22,8 +22,9 @@ li a:hover {
     color: black;
 }
 .topnav {
-    width: 25%;
-    transition: width 1.5s ease-in-out;
+    width: 20%;
+    transition: width 1.2s ease-in-out;
+    transition-delay: 0.5s;
 }
 .topnav:hover {
     width: 100%;
@@ -42,14 +43,13 @@ li a:hover {
     width: 100px;
     height: 100px;
     overflow: hidden;
-    transition: width 2s, height 2s, transform 2s;
+    transition: width 2s, height 2.5s ease-in-out;
 }
 .header p {
     font-size: 3vw;
 }
 .header:hover {
-    width: 500px;
+    width: 400px;
     height: 400px;
     background-color: #757F9A;
-    transform: rotate(360deg);
 }
