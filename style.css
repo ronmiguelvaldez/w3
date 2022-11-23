@@ -7,14 +7,14 @@
 } */
 body.animation {
     animation-name: example;
-    animation-duration: 30s;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 @keyframes example {
-    0% {background-color: black;}
-    25% {background-color: red;}
-    50% {background-color: green;}
-    75% {background-color: blue;}
-    100% {background-color: white;}
+    0% {background-color: #0b486a;}
+    50% {background-color: #0b486b;}
+    100% {background-color: #f56217;}
 }
 ul {
     background-color: #333;
@@ -22,7 +22,7 @@ ul {
     list-style-type: none;
 }
 li a{
-    display: inline-block;
+    display: inline;
     float: left;
     padding: 14px 16px;
     color: white;
@@ -50,10 +50,13 @@ li a:hover {
     color: black;
 }
 .header {
-    background-color: #D7DDE8;
     width: 100px;
     height: 100px;
     overflow: hidden;
+    animation-name: header;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
     transition: width 2s, height 2.5s ease-in-out;
 }
 .header p {
@@ -62,5 +65,5 @@ li a:hover {
 .header:hover {
     width: 400px;
     height: 400px;
-    background-color: #757F9A;
 }
+
