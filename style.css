@@ -21,6 +21,13 @@ li a:hover {
     background-color: white;
     color: black;
 }
+.topnav {
+    width: 25%;
+    transition: width 1.5s ease-in-out;
+}
+.topnav:hover {
+    width: 100%;
+}
 .topnav a.split {
     float: right;
     background-color: #04AA6D;
@@ -29,4 +36,20 @@ li a:hover {
 .topnav a.split:hover {
     background-color: white;
     color: black;
+}
+.header {
+    background-color: #D7DDE8;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    transition: width 2s, height 2s, transform 2s;
+}
+.header p {
+    font-size: 3vw;
+}
+.header:hover {
+    width: 500px;
+    height: 400px;
+    background-color: #757F9A;
+    transform: rotate(360deg);
 }
