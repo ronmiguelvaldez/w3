@@ -51,16 +51,18 @@ li a:hover {
 }
 .header {
     background-color: whitesmoke;
+    border-radius: 30px;
     width: 100px;
     height: 100px;
     overflow: hidden;
-    transition: width 2s, height 2.5s ease-in-out;
+    transition: width 1.5s, height 1.5s ease-in-out;
 }
+/*
 .header p {
-    font-size: 3vw;
-}
+    font-size: 10px;
+} */
 .header:hover {
-    width: 400px;
-    height: 400px;
+    width: 70%;
+    height: 70%;
 }
 
